@@ -17,10 +17,21 @@ public class Pattern5 {
             }
     }
 
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-    scanner.close();
+        System.out.print("Enter the value of N: ");
+        int n = scanner.nextInt();
+
+        // print inverted star pyramid
+        for (int i = n; i >= 1; i--) {
+
+            printSpaces(n - i);
+            printStars(2 * i - 1);
+
+            System.out.println();
+        }
+
+        scanner.close();
     }
 }
