@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Pattern4 {
     // Program to print Star Pyramid pattern
+    
+    public static void printSpaces(int n) {
+        for (int i = 1; i <= n; i++) {
+                System.out.print(" ");
+            }
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,10 +19,9 @@ public class Pattern4 {
 
         // print star pyramid
         for (int i = 1; i <= n; i++) {
-            // print spaces
-            for (int j = 1; j <= n - i; j++) {
-                System.out.print(" ");
-            }
+            
+            printSpaces(n - i);
+            
 
             // print stars
             for (int j = 1; j <= 2 * i - 1; j++) {
