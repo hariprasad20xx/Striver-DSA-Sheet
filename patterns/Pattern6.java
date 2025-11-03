@@ -23,6 +23,22 @@ public class Pattern6 {
         System.out.print("Enter the value of N: ");
         int n = scanner.nextInt();
 
+        // print diamond star pattern
+        for (int i = 1; i <= n; i++) {
+            
+            printSpaces(n - i);
+            printStars(2 * i - 1);
+            
+            System.out.println();
+        }
+
+        for (int i = n; i >= 1; i--) {
+
+            printSpaces(n - i);
+            printStars(2 * i - 1);
+
+            System.out.println();
+        }
 
         scanner.close();
     }
