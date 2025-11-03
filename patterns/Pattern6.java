@@ -10,7 +10,13 @@ public class Pattern6 {
                 System.out.print(" ");
             }
     }
-    
+
+    public static void printStars(int n) {
+        for (int i = 1; i <= n; i++) {
+                System.out.print("*");
+            }
+    }
+
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
