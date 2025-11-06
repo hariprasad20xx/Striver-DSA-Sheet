@@ -4,7 +4,7 @@ public class CountDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
         int i = n;
@@ -13,6 +13,8 @@ public class CountDigits {
             count++;
             i /= 10;
         }
+
+        System.out.println("Count of digits = " + count);
 
         scanner.close();
     }
