@@ -7,7 +7,13 @@ public class CountDigits {
         System.out.println("Enter an integer: ");
         int n = scanner.nextInt();
 
-        
+        int i = n;
+        int count = 0;
+        while (i != 0) {
+            count++;
+            i /= 10;
+        }
+
         scanner.close();
     }
 }
