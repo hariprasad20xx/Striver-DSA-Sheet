@@ -7,7 +7,7 @@ public class Divisors {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Enter an integer: ");
+        System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
         ArrayList<Integer> divisors = new ArrayList<>();
@@ -20,6 +20,7 @@ public class Divisors {
         }
         divisors.add(n);
         
+        System.out.println("Divisors of " + n + ": " + divisors);
 
         scanner.close();
     }
