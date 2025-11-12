@@ -21,6 +21,13 @@ public class Prime {
         System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
+        if (n < 2) {
+            System.out.println("Enter a positive integer greater than 1.");
+
+            scanner.close();
+            return;
+        }
+        
         if (isPrime(n)) {
             System.out.println(n + " is a prime number.");
         } else {
