@@ -11,14 +11,16 @@ public class Divisors {
         int n = scanner.nextInt();
 
         ArrayList<Integer> divisors = new ArrayList<>();
-        divisors.add(1);
 
-        for (int i = 2; i <= n / 2; i++) {
+        for (int i = 1; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 divisors.add(i);
-            }
+
+                if (n / i != i) {
+                    divisors.add(n / i);
+                }
+            }            
         }
-        divisors.add(n);
         
         System.out.println("Divisors of " + n + ": " + divisors);
 
