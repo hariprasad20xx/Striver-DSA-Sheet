@@ -1,5 +1,7 @@
 package patterns;
 
+import java.util.Scanner;
+
 public class Pattern17 {
     // Program to print Symmetric-Butterfly Pattern
 
