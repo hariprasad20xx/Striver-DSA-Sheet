@@ -17,20 +17,17 @@ public class SelectionSort {
             arr[i] = scanner.nextInt();
         }
 
-        for (int i = 0; i < n; i++) {
-            int min = arr[i];
+        for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
-            int temp = 0;
 
             for (int j = i + 1; j < n; j++) {
-                if (arr[j] < min) {
-                    min = arr[j];
+                if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }
             }
 
-            temp = arr[i];
-            arr[i] = min;
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
             arr[minIndex] = temp;
         }
 
