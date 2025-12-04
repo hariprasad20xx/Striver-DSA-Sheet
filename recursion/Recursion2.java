@@ -1,5 +1,13 @@
 package recursion;
 
-public class Recursion2 {
+import java.util.Scanner;
 
+public class Recursion2 {
+    // Program to print 1 to N using recursion
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        scanner.close();
+    }
 }
