@@ -6,7 +6,11 @@ public class Recursion3 {
     // Program to print 1 to N using recursion
 
     public static void printNumbers(int n) {
+        System.out.print(n + " ");
 
+        if (n == 1) return;
+
+        printNumbers(n - 1);
     }
 
     public static void main(String[] args) {
