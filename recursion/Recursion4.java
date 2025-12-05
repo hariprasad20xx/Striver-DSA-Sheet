@@ -15,8 +15,8 @@ public class Recursion4 {
         System.out.print("Enter the value of N: ");
         int n = scanner.nextInt();
 
-        System.out.println(sumOfNaturalNumbers(n));
-        
+        System.out.println("Sum of first " + n + " natural numbers = " + sumOfNaturalNumbers(n));
+
         scanner.close();
     }
 }
