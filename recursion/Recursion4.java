@@ -8,10 +8,15 @@ public class Recursion4 {
     public static int sumOfNaturalNumbers(int n) {
         return (n == 1) ? 1 : n + sumOfNaturalNumbers(n - 1);
     } 
-    
+
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter the value of N: ");
+        int n = scanner.nextInt();
+
+        System.out.println(sumOfNaturalNumbers(n));
+        
         scanner.close();
     }
 }
