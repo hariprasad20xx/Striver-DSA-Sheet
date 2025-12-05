@@ -1,5 +1,13 @@
 package recursion;
 
-public class Recursion4 {
+import java.util.Scanner;
 
+public class Recursion4 {
+    // Program to calculate the sum of first N natural numbers using recursion
+
+    public static void main(String[] agrs) {
+        Scanner scanner = new Scanner(System.in);
+
+        scanner.close();
+    }
 }
