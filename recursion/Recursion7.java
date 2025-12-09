@@ -11,6 +11,13 @@ public class Recursion7 {
         System.out.print("Enter a string: ");
         String inputString = scanner.nextLine();
 
+        boolean isPalindrome = checkPalindrome(inputString, 0, inputString.length() - 1);
+
+        if (isPalindrome) {
+            System.out.println(inputString + " is a palindrome.");
+        } else {
+            System.out.println(inputString + " is not a palindrome");
+        }
 
         scanner.close();
     }
