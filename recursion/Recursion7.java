@@ -8,6 +8,10 @@ public class Recursion7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter a string: ");
+        String inputString = scanner.nextLine();
+
+
         scanner.close();
     }
 }
