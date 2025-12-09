@@ -22,7 +22,6 @@ public class Recursion6 {
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i] + " ");
         }
-
         
         scanner.close();
     }
