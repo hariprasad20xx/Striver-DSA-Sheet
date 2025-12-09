@@ -30,6 +30,12 @@ public class Recursion6 {
             arr[i] = arr[n - i - 1];
             arr[n - i - 1] = temp;
         }
+
+        System.out.print("Reversed Array: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
         
         scanner.close();
     }
