@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Recursion8 {
     // Program to print Nth Fibonacci number using Recursion
 
+    public static int fibonacci(int n) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
