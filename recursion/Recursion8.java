@@ -6,7 +6,7 @@ public class Recursion8 {
     // Program to print Nth Fibonacci number using Recursion
 
     public static int fibonacci(int n) {
-        return 0;
+        return (n <= 1) ? n : fibonacci(n - 1) + fibonacci(n - 2);
     }
 
     public static void main(String[] args) {
