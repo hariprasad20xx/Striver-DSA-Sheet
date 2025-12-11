@@ -10,7 +10,9 @@ public class Recursion8 {
 
         System.out.print("Enter N to get the Nth fibonacci number: ");
         int n = scanner.nextInt();
-        
+
+        System.out.println(fibonacci(n));
+
         scanner.close();
     }
 }
