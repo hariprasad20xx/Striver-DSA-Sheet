@@ -18,6 +18,15 @@ public class LargestElement {
             arr[i] = scanner.nextInt();
         }
 
+        int largest = arr[0];
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > largest) {
+                largest = arr[i];
+            }
+        }
+
+        System.out.println("Largest Element is: " + largest);
+
         scanner.close();
     }
 }
