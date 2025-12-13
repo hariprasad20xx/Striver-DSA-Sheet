@@ -27,6 +27,11 @@ public class CountFrequency {
             frequencyCount.put(element, frequencyCount.getOrDefault(element, 0) + 1);
         }
 
+        for (Map.Entry<Integer, Integer> entry : frequencyCount.entrySet()) {
+            // Print result to console
+            System.out.println("Number " + entry.getKey() + " occurs " + entry.getValue() + " times.");
+        }
+
         scanner.close();
     }
 }
