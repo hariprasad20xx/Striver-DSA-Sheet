@@ -19,7 +19,14 @@ public class CountFrequency {
         for (int i = 0; i < n; i++) {
             array[i] = scanner.nextInt();
         }
-        
+
+        HashMap<Integer, Integer> frequencyCount = new HashMap<>();
+
+        for (int element : array) {
+            // update count for the current element
+            frequencyCount.put(element, frequencyCount.getOrDefault(element, 0) + 1);
+        }
+
         scanner.close();
     }
 }
