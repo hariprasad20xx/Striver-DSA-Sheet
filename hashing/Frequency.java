@@ -1,5 +1,7 @@
 package hashing;
 
+import java.util.Scanner;
+
 public class Frequency {
     // Program to find the highest and lowest frequency element
 
