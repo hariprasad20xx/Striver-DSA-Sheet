@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Scanner;
+
 public class CheckSorted {
     // Program to check if the given array is sorted
 
