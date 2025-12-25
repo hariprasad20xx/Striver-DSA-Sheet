@@ -25,6 +25,12 @@ public class CheckSorted {
             }
         }
 
+        if (isSorted) {
+            System.out.println("Array is sorted.");
+        } else {
+            System.out.println("Array is not sorted.");
+        }
+        
         scanner.close();
     }
 }
