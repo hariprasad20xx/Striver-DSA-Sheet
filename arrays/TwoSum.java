@@ -1,11 +1,24 @@
 package arrays;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class TwoSum {
+    // Program to find the indices of elements resulting in the target sum
 
     public static int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> visitedMap = new HashMap<>();
 
+        for (int i = 0; i < nums.length; i++) {
+            int diff = target - nums[i];
+
+            if (visitedMap.containsKey(diff)) {
+                return new int[]{visitedMap.get(diff), i};
+            }
+
+            visitedMap.put(nums[i], i);
+        }
+        
         return new int[]{};
     }
 
