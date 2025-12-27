@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class TwoSum {
 
             visitedMap.put(nums[i], i);
         }
-        
+
         return new int[]{};
     }
 
@@ -40,6 +41,8 @@ public class TwoSum {
 
         int[] indices = twoSum(arr, target);
 
+        System.out.println(Arrays.toString(indices));
+        
         scanner.close();
     }
 }
