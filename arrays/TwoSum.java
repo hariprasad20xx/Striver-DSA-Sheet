@@ -16,7 +16,10 @@ public class TwoSum {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        
+
+        System.out.print("Enter the target sum: ");
+        int target = scanner.nextInt();
+
         scanner.close();
     }
 }
