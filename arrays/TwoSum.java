@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class TwoSum {
 
-    public int[] twoSum(int[] nums, int target) {
-        
+    public static int[] twoSum(int[] nums, int target) {
+
         return new int[]{};
     }
 
@@ -24,6 +24,8 @@ public class TwoSum {
 
         System.out.print("Enter the target sum: ");
         int target = scanner.nextInt();
+
+        int[] indices = twoSum(arr, target);
 
         scanner.close();
     }
