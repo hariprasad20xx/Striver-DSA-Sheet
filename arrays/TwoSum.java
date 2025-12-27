@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class TwoSum {
 
+    public int[] twoSum(int[] nums, int target) {
+        
+        return new int[]{};
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
