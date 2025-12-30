@@ -8,8 +8,16 @@ public class ContainsDuplicate {
 
     public static boolean hasDuplicate(int[] nums) {
         HashSet<Integer> numbers = new HashSet<>();
-        
-        return true;
+
+        for (int num : nums) {
+            if (numbers.contains(num)) {
+                return true;
+            } else {
+                numbers.add(num);
+            }
+        }
+
+        return false;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
