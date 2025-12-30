@@ -32,6 +32,12 @@ public class ContainsDuplicate {
             arr[i] = scanner.nextInt();
         }
 
+        if (hasDuplicate(arr)) {
+            System.out.println("The given array contains duplicates.");
+        } else {
+            System.out.println("The elements in the given array are unique.");
+        }
+
         scanner.close();
     }
 }
