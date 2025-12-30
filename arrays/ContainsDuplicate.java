@@ -1,11 +1,13 @@
 package arrays;
 
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class ContainsDuplicate {
     // Program to check whether the given array contains duplicate element
 
     public static boolean hasDuplicate(int[] nums) {
+        
         return true;
     }
     public static void main(String[] args) {
