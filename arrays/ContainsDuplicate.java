@@ -7,6 +7,7 @@ public class ContainsDuplicate {
     // Program to check whether the given array contains duplicate element
 
     public static boolean hasDuplicate(int[] nums) {
+        HashSet<Integer> numbers = new HashSet<>();
         
         return true;
     }
