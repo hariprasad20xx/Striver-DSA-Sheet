@@ -8,7 +8,7 @@ public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         return true;
     }
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +19,7 @@ public class ValidAnagram {
         String str2 = scanner.nextLine();
 
         // method call
-
+        boolean result = isAnagram(str1, str2);
         // output result
 
         scanner.close();
