@@ -8,6 +8,16 @@ public class ValidAnagram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        // user input
+        System.out.print("Enter the first string: ");
+        String str1 = scanner.nextLine();
+        System.out.print("Enter the second string: ");
+        String str2 = scanner.nextLine();
+
+        // method call
+        
+        // output result
+
         scanner.close();
     }
 }
