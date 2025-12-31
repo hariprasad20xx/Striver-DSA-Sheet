@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class ValidAnagram {
     // Program to check whether given two strings are anagrams of each other
 
+    public static boolean isAnagram(String s, String t) {
+        return true;
+    }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,7 +19,7 @@ public class ValidAnagram {
         String str2 = scanner.nextLine();
 
         // method call
-        
+
         // output result
 
         scanner.close();
