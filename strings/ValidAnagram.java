@@ -24,7 +24,7 @@ public class ValidAnagram {
                 return false;
             }
         }
-        
+
         return true;
     }
 
@@ -39,8 +39,14 @@ public class ValidAnagram {
 
         // method call
         boolean result = isAnagram(str1, str2);
-        // output result
 
+        // output result
+        if (result) {
+            System.out.println("The strings " + str1 + " and " + str2 + " are anagrams are of each other.");
+        } else {
+            System.out.println("The strings " + str1 + " and " + str2 + " are not anagrams.");
+        }
+        
         scanner.close();
     }
 }
