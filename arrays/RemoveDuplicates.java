@@ -35,6 +35,8 @@ public class RemoveDuplicates {
             arr[i] = scanner.nextInt();
         }
 
+        int k = removeDuplicates(arr);
+        
         scanner.close();
     }
 }
