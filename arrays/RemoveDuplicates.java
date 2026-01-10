@@ -6,7 +6,8 @@ public class RemoveDuplicates {
     // Program to remove duplicates in a sorted array (in-place)
 
     public static int removeDuplicates(int[] nums) {
-        return 0;
+        if (nums.length == 0) return 0;
+        
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
