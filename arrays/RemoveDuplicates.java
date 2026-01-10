@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class RemoveDuplicates {
     // Program to remove duplicates in a sorted array (in-place)
 
+    public static int removeDuplicates(int[] nums) {
+        return 0;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,6 +20,8 @@ public class RemoveDuplicates {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+
 
         scanner.close();
     }
