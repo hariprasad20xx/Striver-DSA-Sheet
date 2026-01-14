@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class LeftRotate {
 
+    public static void leftRotateByOne(int[] arr) {
+
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,7 +20,7 @@ public class LeftRotate {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
-        
+
         scanner.close();
     }
 }
