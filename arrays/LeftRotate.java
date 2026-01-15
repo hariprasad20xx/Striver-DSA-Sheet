@@ -29,6 +29,10 @@ public class LeftRotate {
             arr[i] = scanner.nextInt();
         }
 
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
         scanner.close();
     }
 }
