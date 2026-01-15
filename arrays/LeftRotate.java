@@ -5,7 +5,15 @@ import java.util.Scanner;
 public class LeftRotate {
 
     public static void leftRotateByOne(int[] arr) {
+        int temp = arr[0];
+        
+        // Shift elements to the left
+        for (int i = 1; i < arr.length; i++) {
+            arr[i - 1] = arr[i];
+        }
 
+        // Place the first element at the end
+        arr[arr.length - 1] = temp;
     }
 
     public static void main(String[] args) {
