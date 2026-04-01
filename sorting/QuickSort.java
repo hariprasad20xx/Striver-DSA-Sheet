@@ -12,7 +12,32 @@ public class QuickSort {
 
     // method to partition array
     private int partition(int[] arr, int low, int high) {
-        return 0;
+        
+        // Choose last element as pivot
+        int pivot = arr[high];
+
+        // Initialize i
+        int i = low - 1;
+
+        // Traverse from low to high-1
+        for (int j = low; j < high; j++) {
+            // If element <= pivot
+            if (arr[j] <= pivot) {
+                // Increment i and swap
+                i++;
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // Place pivot in correct position
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        // Return pivot index
+        return i + 1;
     }
 
     public static void main(String[] args) {
