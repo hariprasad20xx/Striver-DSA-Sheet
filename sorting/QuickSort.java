@@ -65,6 +65,12 @@ public class QuickSort {
 
         quickSort(arr, 0, arr.length - 1);
 
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+
+        System.out.println();
+
         scanner.close();
     }
 }
