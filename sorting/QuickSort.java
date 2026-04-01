@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class QuickSort {
     // Program to sort an array using Quick Sort
 
+    // method to perform quicksort
+    static void quickSort(int[] arr, int low, int high) {
+
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
