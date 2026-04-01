@@ -7,11 +7,11 @@ public class QuickSort {
 
     // method to perform quicksort
     static void quickSort(int[] arr, int low, int high) {
-
+        
     }
 
     // method to partition array
-    private int partition(int[] arr, int low, int high) {
+    private static int partition(int[] arr, int low, int high) {
         
         // Choose last element as pivot
         int pivot = arr[high];
