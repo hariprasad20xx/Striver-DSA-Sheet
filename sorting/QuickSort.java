@@ -63,6 +63,8 @@ public class QuickSort {
             arr[i] = scanner.nextInt();
         }
 
+        quickSort(arr, 0, arr.length - 1);
+
         scanner.close();
     }
 }
