@@ -10,6 +10,11 @@ public class QuickSort {
 
     }
 
+    // method to partition array
+    private int partition(int[] arr, int low, int high) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
