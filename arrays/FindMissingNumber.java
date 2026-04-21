@@ -30,6 +30,8 @@ public class FindMissingNumber {
             arr[i] = scanner.nextInt();
         }
 
+        System.out.println("Missing number is: " + missingNumber(arr));
+
         scanner.close();
     }
 }
