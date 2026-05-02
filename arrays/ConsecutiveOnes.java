@@ -36,7 +36,9 @@ public class ConsecutiveOnes {
         }
 
         int ans = obj.findMaxConsecutiveOnes(nums);
-        
+
+        System.out.println("The maximum consecutive 1's are " + ans);
+
         scanner.close();
     }
 }
