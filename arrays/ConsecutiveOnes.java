@@ -35,6 +35,8 @@ public class ConsecutiveOnes {
             arr[i] = scanner.nextInt();
         }
 
+        int ans = obj.findMaxConsecutiveOnes(nums);
+        
         scanner.close();
     }
 }
