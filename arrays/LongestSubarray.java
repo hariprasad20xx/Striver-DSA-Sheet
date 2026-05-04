@@ -58,6 +58,8 @@ public class LongestSubarray {
 
         int result = longestSubarray(arr, n)
 
+        System.out.println("The length of longest subarray having sum k is: " + result);
+
 
         scanner.close();
     }
