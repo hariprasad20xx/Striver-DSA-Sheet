@@ -56,6 +56,9 @@ public class LongestSubarray {
         System.out.print("Enter the value of k (desired sum): ");
         int k = scanner.nextInt();
 
+        int result = longestSubarray(arr, n)
+
+
         scanner.close();
     }
 }
