@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class LongestZeroSumSubarray {
 
+    static int maxLen(int[] arr, int n) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
