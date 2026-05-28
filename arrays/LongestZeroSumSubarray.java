@@ -45,6 +45,8 @@ public class LongestZeroSumSubarray {
             arr[i] = scanner.nextInt();
         }
 
+        int result = maxLen(arr, n);
+
         scanner.close();
     }
 }
