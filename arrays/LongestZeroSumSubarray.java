@@ -6,6 +6,9 @@ import java.util.HashMap;
 public class LongestZeroSumSubarray {
 
     static int maxLen(int[] arr, int n) {
+
+        Map<Integer, Integer> mpp = new HashMap<>();
+        
         return 0;
     }
 
