@@ -8,7 +8,10 @@ public class LongestZeroSumSubarray {
     static int maxLen(int[] arr, int n) {
 
         Map<Integer, Integer> mpp = new HashMap<>();
-        
+
+        int maxi = 0;
+        int sum = 0;
+
         return 0;
     }
 
