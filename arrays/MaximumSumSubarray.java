@@ -56,6 +56,8 @@ public class MaximumSumSubarray {
         }
 
         int maxSum = sol.maxSubArray(arr);
+
+        System.out.println("The maximum subarray sum is: " + maxSum);
         
         scanner.close();
     }
