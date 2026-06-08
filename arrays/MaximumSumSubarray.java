@@ -54,6 +54,8 @@ public class MaximumSumSubarray {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+        int maxSum = sol.maxSubArray(arr);
         
         scanner.close();
     }
