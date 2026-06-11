@@ -48,6 +48,8 @@ public class MajorityElement {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+        int result = majorityElement(arr);
         
         scanner.close();
     }
