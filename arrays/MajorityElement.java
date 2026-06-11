@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MajorityElement {
 
-    public int majorityElement(int[] nums) {
+    public static int majorityElement(int[] nums) {
         int n = nums.length;
         
         int cnt = 0;
