@@ -50,6 +50,8 @@ public class MajorityElement {
         }
 
         int result = majorityElement(arr);
+
+        System.out.println("The majority element is: " + result);
         
         scanner.close();
     }
