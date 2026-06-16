@@ -5,7 +5,9 @@ import java.util.ArrayList;
 
 public class ArrayLeaders {
 
-    
+    static ArrayList<Integer> leaders(int[] nums) {
+        return new ArrayList<>();
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
