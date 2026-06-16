@@ -6,7 +6,9 @@ import java.util.ArrayList;
 public class ArrayLeaders {
 
     static ArrayList<Integer> leaders(int[] nums) {
-        return new ArrayList<>();
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        return ans;
     }
 
     public static void main(String[] args) {
