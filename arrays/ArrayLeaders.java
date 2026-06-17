@@ -44,8 +44,15 @@ public class ArrayLeaders {
             arr[i] = scanner.nextInt();
         }
 
-        ArrayList<Integer> ans = finder.leaders(nums);
-        
+        ArrayList<Integer> ans = finder.leaders(arr);
+
+        System.out.print("Leaders in the array are: ");
+        for (int leader : ans) {
+            System.out.print(leader + " ");
+        }
+        System.out.println();
+
+
         scanner.close();
     }
 }
