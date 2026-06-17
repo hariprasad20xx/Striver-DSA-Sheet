@@ -44,6 +44,8 @@ public class ArrayLeaders {
             arr[i] = scanner.nextInt();
         }
 
+        ArrayList<Integer> ans = finder.leaders(nums);
+        
         scanner.close();
     }
 }
